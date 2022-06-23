@@ -1,9 +1,21 @@
 # Backend
-- FastAPI를 이용한 백엔드 구현
-- 레시피추천을 위해 레시피데이터 내의 `레시피제목`, `요리명`, `요리소개`, `재료` 등을 이용해 `word2vec` 레시피임베딩 제작
-- 궁합레시피 추천을 위해 `음식점 메뉴 데이터셋`을 이용해 `Fasttext`학습 후 궁합에 맞는 레시피 추천
-- 레시피간 `cosine similarity` 계산을 통해 레시피 추천
+- `FastAPI`를 이용한 백엔드 구현
+- `content-based` 추천 구현
 - `preprocessed.df` - `crawling.df` 순서로 데이터 정제
+
+# Recommendation(content-based)
+### 1. 개인화추천 
+- `recipe2vec.dict` 제작
+- 레시피추천을 위해 레시피데이터 내의 `레시피제목`, `요리명`, `요리소개`, `재료` 등을 이용해 `word2vec` 레시피임베딩 제작
+- `cosine similarity` 계산을 통한 레시피 추천
+
+### 2. 궁합추천
+- `recipe2combi.dict`, `fasttext.bin` 제작
+- 궁합레시피 추천을 위해 `음식점 메뉴 데이터셋`을 이용해 `Fasttext`학습 후 궁합에 맞는 레시피 추천
+```
+fasttext 구함 -> 테이블에서 단어가 포함되는 요리명 구함 -> recipe2vec에서 유사도 구함 ->
+유사도가 너무 높은 경우 제외 -> 다음 단어 확인.. -> recipe2vec 유사도가 낮은 경우 궁합 요리로 추가
+```
 
 ## prototype 실행방법(prototype 폴더 내에서)
 ```

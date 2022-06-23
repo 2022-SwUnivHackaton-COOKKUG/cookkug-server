@@ -1,4 +1,4 @@
-# backbone
+# Backend
 - FastAPI를 이용한 백엔드 구현
 - 레시피추천을 위해 레시피데이터 내의 `레시피제목`, `요리명`, `요리소개`, `재료` 등을 이용해 `word2vec` 레시피임베딩 제작
 - 궁합레시피 추천을 위해 `음식점 메뉴 데이터셋`을 이용해 `Fasttext`학습 후 궁합에 맞는 레시피 추천
@@ -11,7 +11,7 @@ streamlit run app.py
 ```
 
 
-## fastapi 실행방법(fastapi 폴더 내에서)
+## FastAPI 실행방법(fastapi 폴더 내에서)
 ```
 python run app.py
 ```

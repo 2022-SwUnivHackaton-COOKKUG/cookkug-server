@@ -18,9 +18,9 @@ python run app.py
 
 
 ## 사용데이터
-- (만개의레시피)[https://kadx.co.kr/product/detail/0c5ec800-4fc2-11eb-8b6e-e776ccea3964] - 레시피정보
-- (지역별 음식점 메뉴데이터)[https://www.data.go.kr/tcs/dss/selectDataSetList.do?dType=FILE&keyword=%EB%A9%94%EB%89%B4&detailKeyword=&publicDataPk=&recmSe=&detailText=&relatedKeyword=&commaNotInData=&commaAndData=&commaOrData=&must_not=&tabId=&dataSetCoreTf=&coreDataNm=&sort=&relRadio=&orgFullName=&orgFilter=&org=&orgSearch=&currentPage=3&perPage=10&brm=%EC%8B%9D%ED%92%88%EA%B1%B4%EA%B0%95&instt=&svcType=&kwrdArray=&extsn=CSV&coreDataNmArray=&pblonsipScopeCode=]
+- [만개의레시피](https://kadx.co.kr/product/detail/0c5ec800-4fc2-11eb-8b6e-e776ccea3964) - 레시피정보
+- [지역별 음식점 메뉴데이터](https://www.data.go.kr/tcs/dss/selectDataSetList.do?dType=FILE&keyword=%EB%A9%94%EB%89%B4&detailKeyword=&publicDataPk=&recmSe=&detailText=&relatedKeyword=&commaNotInData=&commaAndData=&commaOrData=&must_not=&tabId=&dataSetCoreTf=&coreDataNm=&sort=&relRadio=&orgFullName=&orgFilter=&org=&orgSearch=&currentPage=3&perPage=10&brm=%EC%8B%9D%ED%92%88%EA%B1%B4%EA%B0%95&instt=&svcType=&kwrdArray=&extsn=CSV&coreDataNmArray=&pblonsipScopeCode=)
     - 강원도원주시, 강원도화천군, 광주동구, 부산, 서울, 전남, 전북전주
 
 ## 크롤링
-- (만개의레시피)[https://www.10000recipe.com/index.html] - 이미지, 조리순서
+- [만개의레시피](https://www.10000recipe.com/index.html) - 이미지, 조리순서

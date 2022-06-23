@@ -1,0 +1,5 @@
+backend/data/crawling.df
+backend/data/preprocessed.df
+backend/data/preprocessed.csv
+backend/data/fasttext.bin
+*/*/__pycache__

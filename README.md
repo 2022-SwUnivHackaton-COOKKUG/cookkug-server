@@ -27,6 +27,7 @@ streamlit run app.py
 ```
 python run app.py
 ```
+![image](https://user-images.githubusercontent.com/57215124/175384495-c821f534-a791-45ff-9fcd-087642536c34.png)
 
 
 ## 사용데이터

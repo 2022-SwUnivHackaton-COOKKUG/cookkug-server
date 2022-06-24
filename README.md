@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/57215124/175440790-8334fae5-1e68-4710-91fd-729376d7dd2f.png)
+
 # Backend
 - `FastAPI`를 이용한 백엔드 구현
 - `content-based` 추천 구현
